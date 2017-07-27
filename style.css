@@ -1,9 +1,143 @@
-#c1
-{
-  position: fixed;
-  top: 0;
-  left: 0;
+/* {
+  margin: 0;
+  padding: 0;
+}
+*/
 
-  min-width: 100%;
-  min-height: 100%;
+header {
+  padding-bottom: 3em;
+  background-color: grey;
+  background: url("https://ssl.c.photoshelter.com/img-get2/I0000LawfDAI3.ds/fit=1000x750/Half-Dome-Panorama-BW-Yosemite-Point-April-1997.jpg");
+  background-position: right;
+}
+
+body {
+  background-color: darkgrey;
+}
+
+h2 {
+
+  font-family: 'Permanent Marker', cursive;
+  color: #f3f3f3;
+  margin: 1em 1em;
+  padding: .75em .5em;
+  background-color: grey;
+  border: 1px solid #e7e7e7;
+}
+
+p {
+  font-family: 'Works Sans', sans-serif;
+  padding: 2em
+
+}
+
+img {
+    border: 1px solid #e7e7e7;
+    padding: 1em;
+}
+
+main {
+  display: flex;
+  flow: inline;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  margin: 1em 1em 1em 1em;
+
+}
+
+aside {
+  flow: inline;
+  border: 1px solid #e7e7e7;
+  float: right;
+  width: 30%;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  flow: inline;
+  float: center;
+  margin: 1em 1em 1em 1em;
+}
+
+article {
+  flow: inline;
+border: 1px solid #e7e7e7;
+  margin: auto;
+  width: 30%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+label {
+  font-family: 'Works Sans', sans-serif;
+  float: center;
+}
+
+form {
+  float: center;
+  margin: 2em 2em;
+}
+.header {
+  padding: 10px;
+  padding-right: 15px;
+  text-align: left;
+  font-family: 'Permanent Marker', cursive;
+  color: #f3f3f3;
+  position:fixed;
+  background-color: darkgrey;
+  border: 1px solid #e7e7e7;
+}
+
+.navigation {
+  padding-top: 90px;
+  padding-bottom; 2em;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 80;
+  width: 100%;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  margin-bottom: 40px;
+}
+
+li {
+  display: inline;
+  border-right: 1px solid red;
+}
+
+li a {
+    display: block;
+    width: 100px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #666;
+  }
+
+li:last-child {
+  border-bottom: none;
+  border-right: none;
+  color: red;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.active {
+    background-color: red;
+    color: white;
+}
+
+.parent {
+  border: 5px solid #f3f3f3;
 }
